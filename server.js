@@ -6,6 +6,7 @@ const randomRouter = require('./routes/randomRecipe.routes');
 const app = express ();
 
 
+app.use(express.json());
 
 
 
